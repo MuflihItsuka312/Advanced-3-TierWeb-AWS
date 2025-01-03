@@ -12,6 +12,9 @@
 	<link href="css/reset.css" rel="stylesheet" type="text/css" media="all">
 	<link href="css/colorbox.css" rel="stylesheet" type="text/css" media="all">
 	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+
 		<!--<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />-->
 	<link rel="stylesheet" type="text/css" href="style.css" />
 	<link href="css/common.css" rel="stylesheet" type="text/css" media="all">
@@ -26,6 +29,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+
 	
 	<meta name="robots" content="max-image-preview:large">
 <link rel="dns-prefetch" href="//s.w.org">
@@ -91,19 +95,22 @@ img.emoji {
 </nav>
 
   <div class="container">
-    <div class="input-area">
-      <form method="POST" action="add_note.php">
-        <div class="WriteNote">
-        <input type="text" name="note" placeholder="Write your note here..." required />
-        </div>
-        <div class="WriteName">
-        <input type="text" name="author" placeholder="Your name..." />
-        </div>
-        <div class="button">
-        <button class="btn" name="add">Add Note</button>
-        </div>
-      </form>
+  <div class="input-area">
+  <form method="POST" action="add_note.php">
+    <div class="WriteNote">
+    <i class="fa-regular fa-clipboard"></i>
+      <input type="text" name="note" class="login__input" placeholder="Write your note here..." required />
     </div>
+    <div class="WriteName">
+    <i class="fa-regular fa-user"></i>
+      <input type="text" name="author" class="login__input" placeholder="Your name..." />
+    </div>
+    <div class="button">
+      <button class="btn" name="add">Add Note</button>
+    </div>
+  </form>
+</div>
+
     <table class="table">
       <thead>
         <tr>

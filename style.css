@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Nordeco";
+  src: url("/fonts/nordeco.otf") format("opentype");
+}
+
+
 /* Basic reset */
 * {
   margin: 0;
@@ -51,12 +57,12 @@ nav {
 }
 
 .heading {
-  font-family: "Playfair Display", serif;
+  font-family: "Nordeco", serif;
   font-size: 74px;
   color: #eccc6e;
   text-decoration: none;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .heading.center {
@@ -72,25 +78,73 @@ nav {
 }
 
 .heading.right {
-  font-family: "Playfair Display", serif;
+  font-family: "Nordeco", serif;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 25px;
   
 }
-
-/* Input area styling */
-.input-area {
+/* Input container styling */
+.WriteNote,
+.WriteName {
+  display: flex;
+  align-items: center;
+  position: relative;
   margin-bottom: 20px;
-  text-align: center;
 }
 
-.input-area input[type="text"] {
+
+.WriteNote input,
+.WriteName input {
+  border: none;
+  border-bottom: 2px solid #eccc6e; /* Default border color */
+  background: none;
+  padding: 10px;
+  padding-left: 35px; /* Adjust for icon spacing */
+  font-weight: 500;
+  font-size: 14px;
+  width: 75%;
+  color: #eccc6e; /* Default text color */
+  transition: border-color 0.2s, color 0.2s;
+  outline: none;
+}
+
+.WriteNote input:hover,
+.WriteName input:hover {
+  border-bottom: 2px solid #ffffff; /* Gold on hover */
+  color: #ffffff; /* Gold text on hover */
+}
+
+.WriteNote input:focus,
+.WriteName input:focus {
+  border-bottom: 2px solid #ffffff; /* Gold color on focus */
+  color: #ffffff; /* Gold text on focus */
+}
+
+.WriteNote i,
+.WriteName i {
+  position: absolute;
+  left: 5px;
+  color: #eccc6e; /* Default icon color */
+  font-size: 18px;
+  transition: color 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for icon */
+.WriteNote:hover i,
+.WriteName:hover i {
+  color: #ffffff; /* Gold icon on hover */
+}
+/* Input area styling */
+.input-area {
+  text-align: center;
+}
+/* .input-area input[type="text"] {
   width: 80%;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
   border: 1px solid #161616;
-}
+} */
 
 .input-area button {
   padding: 10px 20px;
@@ -104,6 +158,7 @@ nav {
 
 .input-area button:hover {
   background-color: rgb(255, 215, 122);
+  color: #ffffff;
 }
 
 /* Table styling */
