@@ -13,10 +13,6 @@ sudo systemctl enable httpd
 echo "Installing PHP and extensions..."
 sudo yum install -y php php-mbstring php-xml
 
-# Install phpMyAdmin dependencies
-sudo yum install -y epel-release
-sudo yum install -y phpmyadmin
-
 # Install MySQL PHP extension
 # Note: The following line uses apt-get; ensure your system supports both yum and apt-get.
 echo "Installing MySQL PHP extension..."
