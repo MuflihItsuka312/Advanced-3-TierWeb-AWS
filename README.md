@@ -1,5 +1,5 @@
-<div align="center"> <h1> Stellaris Project
-</h1>
+<div align="center"> 
+<h1> Stellaris Project </h1>
 </div>
 
 ![Architecture Demo](https://s6.ezgif.com/tmp/ezgif-6-4f12627e70.gif)
