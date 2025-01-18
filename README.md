@@ -43,4 +43,4 @@ change config.sample.inc.php to config.inc.php
 
 ### 3. Copy your RDS dns on  config.inc.php 
 
-### END
+END
