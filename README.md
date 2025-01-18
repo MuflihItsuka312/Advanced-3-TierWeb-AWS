@@ -16,6 +16,10 @@ This repository contains the infrastructure code and application code for deploy
 
 ![image](https://github.com/user-attachments/assets/9cc7a8a6-4f88-431f-96e8-587a8b1520b6)
 
+## Resource Monitoring 
+![image](https://github.com/user-attachments/assets/3c16c94c-1b97-4728-91df-0f7346bef602)
+
+
 
 ## Features
 
@@ -23,7 +27,7 @@ This repository contains the infrastructure code and application code for deploy
 - Auto-scaling for application servers
 - Secure access via a jump server
 - Highly available database with Amazon RDS
-- Infrastructure as code using Terraform and Ansible
+- Resource Monitoring VIA CloudWatch
 
 ## Prerequisites
 - Git
