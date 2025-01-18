@@ -1,5 +1,6 @@
 # AWS Three-Tier Web Architecture
 ![Uploading ezgif-6-4549cb41fe.gif…]()
+![Architecture Demo](https://s6.ezgif.com/tmp/ezgif-6-4f12627e70.gif)
 
 This repository contains the infrastructure code and application code for deploying a highly available and scalable three-tier web application on AWS. The architecture includes:
 
