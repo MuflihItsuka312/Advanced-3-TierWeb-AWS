@@ -24,9 +24,8 @@ This repository contains the infrastructure code and application code for deploy
 - Infrastructure as code using Terraform and Ansible
 
 ## Prerequisites
-
-
 - Git
+- AWS Cloud // VMware with linux image
 
 ## Getting Started
 
@@ -34,7 +33,7 @@ This repository contains the infrastructure code and application code for deploy
 <pre>
 git clone https://github.com/MuflihItsuka312/aws-three-tier-web.git
 cd aws-three-tier-web
-./setuo.sh 
+./setup.sh 
 </pre>
 
 ### 2.Check PhpMyAdmin directory 
