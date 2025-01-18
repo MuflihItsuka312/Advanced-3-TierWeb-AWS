@@ -1,4 +1,4 @@
-# AWS Three-Tier Web Architecture
+# Stellaris Project
 ![Uploading ezgif-6-4549cb41fe.gif…]()
 ![Architecture Demo](https://s6.ezgif.com/tmp/ezgif-6-4f12627e70.gif)
 
